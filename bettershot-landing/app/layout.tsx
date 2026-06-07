@@ -5,26 +5,29 @@ import { GeistMono } from "geist/font/mono"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Better Shot — Screenshot tool for macOS",
+  title: "Better Shot — Screenshots & screen recording for macOS",
   description:
-    "Free, open-source screenshot tool for macOS. Capture, annotate, and beautify screenshots with a single shortcut. No account needed.",
+    "Free, open-source screen capture tool for macOS. Screenshots, recordings, annotations, and effects — all in one local-first app. No account needed.",
   metadataBase: new URL("https://bettershot.site"),
   alternates: {
     canonical: "/",
   },
   keywords: [
     "screenshot",
+    "screen recording",
     "macOS",
     "screen capture",
     "open source",
     "CleanShot alternative",
     "annotation",
     "free screenshot tool",
+    "video editor",
+    "MP4 recording",
   ],
   openGraph: {
-    title: "Better Shot — Screenshot tool for macOS",
+    title: "Better Shot — Screenshots & screen recording for macOS",
     description:
-      "Free, open-source screenshot tool for macOS. Capture, annotate, and beautify screenshots with a single shortcut.",
+      "Free, open-source screen capture tool for macOS. Screenshots, recordings, annotations, and effects — all in one local-first app.",
     url: "https://bettershot.site",
     siteName: "Better Shot",
     locale: "en_US",
@@ -32,9 +35,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Better Shot — Screenshot tool for macOS",
+    title: "Better Shot — Screenshots & screen recording for macOS",
     description:
-      "Free, open-source screenshot tool for macOS. Capture, annotate, and beautify screenshots with a single shortcut.",
+      "Free, open-source screen capture tool for macOS. Screenshots, recordings, annotations, and effects — all in one local-first app.",
     creator: "@code_kartik",
   },
   robots: {
@@ -62,7 +65,7 @@ const jsonLd = {
     priceCurrency: "USD",
   },
   description:
-    "Free, open-source screenshot tool for macOS. Capture, annotate, and beautify screenshots.",
+    "Free, open-source screen capture tool for macOS. Screenshots, recordings, annotations, and effects — all in one local-first app.",
   url: "https://bettershot.site",
   downloadUrl: "https://github.com/KartikLabhshetwar/better-shot/releases",
   author: {

@@ -25,9 +25,8 @@ Region, fullscreen, and window capture all use the native macOS `screencapture` 
 ### Screen Recording
 
 - **Record full screen** — Capture your entire display as MP4 video with ScreenCaptureKit
-- **Floating status bar** — Timer, pause/resume, stop, and discard controls (hidden from the recording itself)
-- **Auto-apply effects** — Recordings automatically get your default background, padding, corner radius, and shadow on capture — same as screenshots
-- **Video editor** — Trim, crop, add padding, corner radius, shadow, and background (solid, gradient, wallpaper, custom image). Export as MP4
+- **Floating status bar** — Timer, pause/resume, stop, restart, and discard controls (hidden from the recording itself)
+- **Video editor** — Trim, crop, add padding, corner radius, shadow, and background (solid, gradient, wallpaper, custom image). Export as MP4 with effects baked in
 - **Configurable** — FPS (24/30/60), show cursor, capture audio in Settings > Recording
 
 ### Beautify
